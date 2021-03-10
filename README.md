@@ -23,6 +23,7 @@ pod 'LWHUD'
 **Carthage**
 ```ruby
 github "luowei/LWHUD"
+```
 
 
 ## Author
