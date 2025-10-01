@@ -5,42 +5,79 @@
 [![License](https://img.shields.io/cocoapods/l/LWHUD.svg?style=flat)](https://cocoapods.org/pods/LWHUD)
 [![Platform](https://img.shields.io/cocoapods/p/LWHUD.svg?style=flat)](https://cocoapods.org/pods/LWHUD)
 
-[中文文档](README_ZH.md)
+[English](./README.md) | [中文版](./README_ZH.md)
+
+## Overview
 
 LWHUD is a modern, feature-rich iOS HUD (Heads-Up Display) library that provides a clean and customizable way to display loading indicators, progress views, and status messages to your users. Based on MBProgressHUD with custom enhancements, LWHUD is specifically designed for SDK integration to avoid dependency conflicts.
 
+## Quick Start
+
+Get started with LWHUD in just a few lines of code:
+
+```objective-c
+// Show loading indicator
+LWHUD *hud = [LWHUD showHUDAddedTo:self.view animated:YES];
+hud.label.text = @"Loading...";
+
+// Hide when done
+[hud hideAnimated:YES];
+```
+
+```swift
+// Swift
+let hud = LWHUD.showAdded(to: view, animated: true)
+hud.label.text = "Loading..."
+hud.hide(animated: true)
+```
+
+**Want more?** Check out the [Usage Examples](#usage-examples) section for detailed examples.
+
 ## Table of Contents
 
+- [Overview](#overview)
+- [Quick Start](#quick-start)
 - [Why LWHUD?](#why-lwhud)
 - [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+  - [CocoaPods](#cocoapods)
+  - [Carthage](#carthage)
+  - [Manual Installation](#manual-installation)
 - [Display Modes Overview](#display-modes-overview)
 - [Usage Examples](#usage-examples)
   - [Basic Usage](#basic-usage)
   - [Progress Indicators](#progress-indicators)
   - [Custom Views](#custom-views)
   - [Advanced Usage](#advanced-usage)
+- [Swift Usage](#swift-usage)
 - [Customization Options](#customization-options)
 - [API Reference](#api-reference)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Swift Usage](#swift-usage)
 - [Threading](#threading)
 - [Best Practices](#best-practices)
 - [Common Use Cases](#common-use-cases)
 - [Troubleshooting](#troubleshooting)
 - [Quick Reference](#quick-reference)
+- [Author](#author)
+- [Contributing](#contributing)
 - [License](#license)
+- [Credits](#credits)
+- [Support](#support)
+- [Links](#links)
 
 ## Why LWHUD?
 
+LWHUD stands out as the ideal HUD solution for iOS development, especially for SDK integration:
+
 - **SDK-Friendly**: Renamed classes prevent conflicts with MBProgressHUD in host applications
 - **Zero Dependencies**: Self-contained, no external dependencies required
-- **Battle-Tested**: Based on proven MBProgressHUD architecture
+- **Battle-Tested**: Based on the proven MBProgressHUD architecture with thousands of production apps
 - **Highly Customizable**: Full control over appearance and behavior
 - **Thread-Safe**: Works seamlessly with GCD and operation queues
 - **Modern iOS Support**: Optimized for iOS 9.0+ with blur effects and modern APIs
 - **Active Maintenance**: Regular updates and bug fixes
-- **Easy Integration**: CocoaPods, Carthage, and manual installation supported
+- **Easy Integration**: Multiple installation options - CocoaPods, Carthage, and manual
+- **Swift & Objective-C**: Full support for both languages with natural APIs
 
 ## Features
 
@@ -79,63 +116,109 @@ LWHUD is a modern, feature-rich iOS HUD (Heads-Up Display) library that provides
 
 ## Display Modes Overview
 
-LWHUD supports six distinct display modes, each designed for specific use cases:
+LWHUD supports six distinct display modes, each optimized for specific use cases:
 
 ### 1. Indeterminate Mode (`LWHUDModeIndeterminate`)
+
 **Default mode** - Displays a standard iOS activity indicator (spinner).
-- **Best for**: Unknown duration tasks, network requests, background processing
-- **Visual**: Animated spinning wheel
-- **Example use cases**:
-  - Loading data from server
-  - Processing without known duration
-  - Waiting for response
+
+| Aspect | Description |
+|--------|-------------|
+| **Best for** | Unknown duration tasks, network requests, background processing |
+| **Visual** | Animated spinning wheel |
+| **Progress** | Not applicable |
+
+**Common use cases:**
+- Loading data from server
+- Processing without known duration
+- Waiting for API response
+
+---
 
 ### 2. Determinate Mode (`LWHUDModeDeterminate`)
+
 Displays a circular pie chart that fills clockwise as progress increases.
-- **Best for**: Tasks with known progress (0.0 - 1.0)
-- **Visual**: Circular pie chart filling from center
-- **Example use cases**:
-  - File downloads with progress tracking
-  - Multi-step operations
-  - Data processing with percentage
+
+| Aspect | Description |
+|--------|-------------|
+| **Best for** | Tasks with trackable progress (0.0 - 1.0) |
+| **Visual** | Circular pie chart filling from center |
+| **Progress** | 0.0 to 1.0 (0% to 100%) |
+
+**Common use cases:**
+- File downloads with progress tracking
+- Multi-step operations
+- Data processing with percentage
+
+---
 
 ### 3. Horizontal Bar Mode (`LWHUDModeDeterminateHorizontalBar`)
+
 Shows a horizontal progress bar similar to Safari's page loading indicator.
-- **Best for**: Linear progress visualization
-- **Visual**: Horizontal bar filling left to right
-- **Example use cases**:
-  - File uploads/downloads
-  - Batch processing
-  - Sequential task completion
+
+| Aspect | Description |
+|--------|-------------|
+| **Best for** | Linear progress visualization |
+| **Visual** | Horizontal bar filling left to right |
+| **Progress** | 0.0 to 1.0 (0% to 100%) |
+
+**Common use cases:**
+- File uploads/downloads
+- Batch processing operations
+- Sequential task completion
+
+---
 
 ### 4. Annular Determinate Mode (`LWHUDModeAnnularDeterminate`)
-Displays a ring-shaped progress indicator that fills along the ring perimeter.
-- **Best for**: Modern, clean progress indication
-- **Visual**: Ring outline filling clockwise
-- **Example use cases**:
-  - Upload/download progress
-  - Task completion percentage
-  - Time-based countdowns
+
+Displays a ring-shaped progress indicator that fills along the perimeter.
+
+| Aspect | Description |
+|--------|-------------|
+| **Best for** | Modern, clean progress indication |
+| **Visual** | Ring outline filling clockwise |
+| **Progress** | 0.0 to 1.0 (0% to 100%) |
+
+**Common use cases:**
+- Upload/download progress
+- Task completion percentage
+- Time-based countdowns
+
+---
 
 ### 5. Custom View Mode (`LWHUDModeCustomView`)
+
 Allows you to display any custom UIView (typically icons or images).
-- **Best for**: Success/error states, custom branding
-- **Visual**: Your custom view (recommended size: ~37x37 points)
-- **Example use cases**:
-  - Success checkmark icon
-  - Error/warning icons
-  - Custom branded graphics
-  - Animated custom views
+
+| Aspect | Description |
+|--------|-------------|
+| **Best for** | Success/error states, custom branding |
+| **Visual** | Your custom view (recommended: ~37x37 points) |
+| **Progress** | Not applicable |
+
+**Common use cases:**
+- Success checkmark icon
+- Error/warning icons
+- Custom branded graphics
+- Animated custom views
+
+---
 
 ### 6. Text Only Mode (`LWHUDModeText`)
+
 Shows only text labels without any indicator - perfect for toast messages.
-- **Best for**: Quick status messages, notifications
-- **Visual**: Text in a bezel (no spinner or progress)
-- **Example use cases**:
-  - "Saved successfully" messages
-  - Brief status updates
-  - User feedback notifications
-  - Error/warning messages
+
+| Aspect | Description |
+|--------|-------------|
+| **Best for** | Quick status messages, notifications |
+| **Visual** | Text in a bezel (no spinner or progress) |
+| **Progress** | Not applicable |
+
+**Common use cases:**
+- "Saved successfully" messages
+- Brief status updates
+- User feedback notifications
+- Error/warning messages
 
 ## Usage Examples
 
@@ -732,43 +815,67 @@ extern CGFloat const LWProgressMaxOffset;
 
 ## Requirements
 
-- iOS 9.0 or later
-- Xcode 8.0 or later
-- Objective-C or Swift
+| Component | Minimum Version |
+|-----------|----------------|
+| iOS | 9.0+ |
+| Xcode | 8.0+ |
+| Language | Objective-C / Swift |
 
 ## Installation
 
+LWHUD can be integrated into your project using several methods:
+
 ### CocoaPods
 
-LWHUD is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
+[CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. To install LWHUD via CocoaPods:
+
+1. Add the following line to your `Podfile`:
 
 ```ruby
 pod 'LWHUD'
 ```
 
-Then run:
+2. Run the installation command:
+
 ```bash
 pod install
 ```
 
+3. Import in your code:
+
+```objective-c
+#import <LWHUD/LWHUD.h>
+```
+
 ### Carthage
 
-To integrate LWHUD using Carthage, add the following to your Cartfile:
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager. To integrate LWHUD:
+
+1. Add to your `Cartfile`:
 
 ```ruby
 github "luowei/LWHUD"
 ```
 
-Then run:
+2. Run:
+
 ```bash
-carthage update
+carthage update --platform iOS
 ```
+
+3. Drag the built framework from `Carthage/Build/iOS/LWHUD.framework` into your Xcode project
 
 ### Manual Installation
 
-1. Download the project
-2. Add the `LWHUD/Classes` folder to your project
-3. Import the header file: `#import "LWHUD.h"`
+For manual integration:
+
+1. Download or clone the repository
+2. Add all files from the `LWHUD/Classes` folder to your Xcode project
+3. Import the header file where needed:
+
+```objective-c
+#import "LWHUD.h"
+```
 
 ## Swift Usage
 
@@ -870,13 +977,91 @@ DispatchQueue.global(qos: .default).async {
 
 ## Best Practices
 
-1. **Always set `removeFromSuperViewOnHide = YES`** when showing temporary HUDs to prevent memory leaks
-2. **Use grace time** for operations that might complete quickly to avoid unnecessary HUD flashing
-3. **Use minimum show time** to prevent the HUD from disappearing too quickly
-4. **Store HUD references** when you need to update progress or hide programmatically
-5. **Avoid showing multiple HUDs** on the same view - use `HUDForView:` to check if one already exists
-6. **Use appropriate modes** for different scenarios (text for messages, progress for long operations)
-7. **Always update HUD on the main thread** since it's a UI component
+Follow these best practices to get the most out of LWHUD:
+
+### Memory Management
+
+**Always set `removeFromSuperViewOnHide = YES`** for temporary HUDs:
+
+```objective-c
+hud.removeFromSuperViewOnHide = YES;
+```
+
+This ensures the HUD is removed from the view hierarchy and deallocated when hidden, preventing memory leaks.
+
+### Timing Optimization
+
+**Use grace time** to prevent flickering on quick operations:
+
+```objective-c
+hud.graceTime = 0.5; // Only show if task takes longer than 0.5 seconds
+```
+
+**Use minimum show time** to ensure readability:
+
+```objective-c
+hud.minShowTime = 1.0; // Always show for at least 1 second
+```
+
+### HUD Management
+
+**Store references** when you need to update or hide programmatically:
+
+```objective-c
+@property (strong, nonatomic) LWHUD *progressHUD;
+
+// Show
+self.progressHUD = [LWHUD showHUDAddedTo:self.view animated:YES];
+
+// Update progress
+self.progressHUD.progress = 0.5;
+
+// Hide
+[self.progressHUD hideAnimated:YES];
+```
+
+**Avoid multiple HUDs** on the same view:
+
+```objective-c
+// Check for existing HUD
+LWHUD *existingHUD = [LWHUD HUDForView:self.view];
+if (!existingHUD) {
+    LWHUD *hud = [LWHUD showHUDAddedTo:self.view animated:YES];
+    // Configure HUD...
+}
+```
+
+### Mode Selection
+
+**Choose the right mode** for each scenario:
+
+| Scenario | Recommended Mode |
+|----------|------------------|
+| Unknown duration | `LWHUDModeIndeterminate` |
+| Trackable progress | `LWHUDModeAnnularDeterminate` or `LWHUDModeDeterminate` |
+| Quick messages | `LWHUDModeText` |
+| Success/Error feedback | `LWHUDModeCustomView` with icon |
+
+### Threading
+
+**Always update UI on the main thread:**
+
+```objective-c
+dispatch_async(dispatch_get_main_queue(), ^{
+    hud.progress = newProgress;
+    // or
+    [hud hideAnimated:YES];
+});
+```
+
+### Accessibility
+
+**Provide meaningful labels** for better accessibility:
+
+```objective-c
+hud.label.text = @"Loading data...";
+hud.detailsLabel.text = @"Please wait";
+```
 
 ## Common Use Cases
 
@@ -1033,12 +1218,69 @@ hud.removeFromSuperViewOnHide = YES;
 
 ## Author
 
-luowei, luowei@wodedata.com
+**luowei**
+- Email: luowei@wodedata.com
+- GitHub: [@luowei](https://github.com/luowei)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
-LWHUD is available under the MIT license. See the LICENSE file for more info.
+LWHUD is available under the MIT License. This means you can use it freely in your projects, both personal and commercial.
+
+```
+MIT License
+
+Copyright (c) 2024 luowei
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+See the [LICENSE](LICENSE) file for the complete license text.
 
 ## Credits
 
-LWHUD is based on the popular MBProgressHUD library with custom modifications and enhancements.
+LWHUD is based on the excellent [MBProgressHUD](https://github.com/jdg/MBProgressHUD) library by Matej Bukovinski, with custom modifications and enhancements for SDK integration.
+
+### Acknowledgments
+
+- **MBProgressHUD** - Original library that inspired LWHUD
+- **Matej Bukovinski** - Creator of MBProgressHUD
+- All contributors and users who have provided feedback and improvements
+
+## Support
+
+If you encounter any issues or have questions:
+
+- Check the [Troubleshooting](#troubleshooting) section
+- Browse [existing issues](https://github.com/luowei/LWHUD/issues)
+- Open a [new issue](https://github.com/luowei/LWHUD/issues/new) if needed
+
+## Links
+
+- [GitHub Repository](https://github.com/luowei/LWHUD)
+- [CocoaPods Page](https://cocoapods.org/pods/LWHUD)
+- [Issue Tracker](https://github.com/luowei/LWHUD/issues)
+- [中文文档](./README_ZH.md)
+
+---
+
+Made with ❤️ by the iOS community
