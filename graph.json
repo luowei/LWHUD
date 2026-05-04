@@ -1,0 +1,5397 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Tests.m",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L1",
+      "id": "example_tests_tests_m",
+      "community": 12,
+      "norm_label": "tests.m"
+    },
+    {
+      "label": "Tests",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L11",
+      "id": "tests_tests_tests",
+      "community": 12,
+      "norm_label": "tests"
+    },
+    {
+      "label": "-setUp",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L17",
+      "id": "tests_tests_tests_setup",
+      "community": 12,
+      "norm_label": "-setup"
+    },
+    {
+      "label": "-tearDown",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L23",
+      "id": "tests_tests_tests_teardown",
+      "community": 12,
+      "norm_label": "-teardown"
+    },
+    {
+      "label": "-testExample",
+      "file_type": "code",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L29",
+      "id": "tests_tests_tests_testexample",
+      "community": 12,
+      "norm_label": "-testexample"
+    },
+    {
+      "label": "LWViewController.h",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWViewController.h",
+      "source_location": "L1",
+      "id": "example_lwhud_lwviewcontroller_h",
+      "community": 16,
+      "norm_label": "lwviewcontroller.h"
+    },
+    {
+      "label": "LWAppDelegate.h",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWAppDelegate.h",
+      "source_location": "L1",
+      "id": "example_lwhud_lwappdelegate_h",
+      "community": 17,
+      "norm_label": "lwappdelegate.h"
+    },
+    {
+      "label": "main.m",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/main.m",
+      "source_location": "L1",
+      "id": "example_lwhud_main_m",
+      "community": 18,
+      "norm_label": "main.m"
+    },
+    {
+      "label": "LWAppDelegate.m",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWAppDelegate.m",
+      "source_location": "L1",
+      "id": "example_lwhud_lwappdelegate_m",
+      "community": 9,
+      "norm_label": "lwappdelegate.m"
+    },
+    {
+      "label": "LWAppDelegate",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWAppDelegate.m",
+      "source_location": "L11",
+      "id": "lwhud_lwappdelegate_lwappdelegate",
+      "community": 9,
+      "norm_label": "lwappdelegate"
+    },
+    {
+      "label": "-applicationdidFinishLaunchingWithOptions",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWAppDelegate.m",
+      "source_location": "L13",
+      "id": "lwhud_lwappdelegate_lwappdelegate_applicationdidfinishlaunchingwithoptions",
+      "community": 9,
+      "norm_label": "-applicationdidfinishlaunchingwithoptions"
+    },
+    {
+      "label": "-applicationWillResignActive",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWAppDelegate.m",
+      "source_location": "L19",
+      "id": "lwhud_lwappdelegate_lwappdelegate_applicationwillresignactive",
+      "community": 9,
+      "norm_label": "-applicationwillresignactive"
+    },
+    {
+      "label": "-applicationDidEnterBackground",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWAppDelegate.m",
+      "source_location": "L25",
+      "id": "lwhud_lwappdelegate_lwappdelegate_applicationdidenterbackground",
+      "community": 9,
+      "norm_label": "-applicationdidenterbackground"
+    },
+    {
+      "label": "-applicationWillEnterForeground",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWAppDelegate.m",
+      "source_location": "L31",
+      "id": "lwhud_lwappdelegate_lwappdelegate_applicationwillenterforeground",
+      "community": 9,
+      "norm_label": "-applicationwillenterforeground"
+    },
+    {
+      "label": "-applicationDidBecomeActive",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWAppDelegate.m",
+      "source_location": "L36",
+      "id": "lwhud_lwappdelegate_lwappdelegate_applicationdidbecomeactive",
+      "community": 9,
+      "norm_label": "-applicationdidbecomeactive"
+    },
+    {
+      "label": "-applicationWillTerminate",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWAppDelegate.m",
+      "source_location": "L41",
+      "id": "lwhud_lwappdelegate_lwappdelegate_applicationwillterminate",
+      "community": 9,
+      "norm_label": "-applicationwillterminate"
+    },
+    {
+      "label": "LWViewController.m",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWViewController.m",
+      "source_location": "L1",
+      "id": "example_lwhud_lwviewcontroller_m",
+      "community": 10,
+      "norm_label": "lwviewcontroller.m"
+    },
+    {
+      "label": "LWViewController",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWViewController.m",
+      "source_location": "L12",
+      "id": "lwhud_lwviewcontroller_lwviewcontroller",
+      "community": 10,
+      "norm_label": "lwviewcontroller"
+    },
+    {
+      "label": "-viewDidLoad",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWViewController.m",
+      "source_location": "L20",
+      "id": "lwhud_lwviewcontroller_lwviewcontroller_viewdidload",
+      "community": 10,
+      "norm_label": "-viewdidload"
+    },
+    {
+      "label": "-showHUD",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWViewController.m",
+      "source_location": "L25",
+      "id": "lwhud_lwviewcontroller_lwviewcontroller_showhud",
+      "community": 10,
+      "norm_label": "-showhud"
+    },
+    {
+      "label": "-showLoading",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWViewController.m",
+      "source_location": "L48",
+      "id": "lwhud_lwviewcontroller_lwviewcontroller_showloading",
+      "community": 10,
+      "norm_label": "-showloading"
+    },
+    {
+      "label": "-showLoadingWithProgress",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWViewController.m",
+      "source_location": "L65",
+      "id": "lwhud_lwviewcontroller_lwviewcontroller_showloadingwithprogress",
+      "community": 10,
+      "norm_label": "-showloadingwithprogress"
+    },
+    {
+      "label": "-hideLoading",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWViewController.m",
+      "source_location": "L79",
+      "id": "lwhud_lwviewcontroller_lwviewcontroller_hideloading",
+      "community": 10,
+      "norm_label": "-hideloading"
+    },
+    {
+      "label": "-showToastTextduration",
+      "file_type": "code",
+      "source_file": "Example/LWHUD/LWViewController.m",
+      "source_location": "L88",
+      "id": "lwhud_lwviewcontroller_lwviewcontroller_showtoasttextduration",
+      "community": 10,
+      "norm_label": "-showtoasttextduration"
+    },
+    {
+      "label": "MIGRATION_GUIDE.swift",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/MIGRATION_GUIDE.swift",
+      "source_location": "L1",
+      "id": "lwhud_swift_classes_migration_guide_swift",
+      "community": 19,
+      "norm_label": "migration_guide.swift"
+    },
+    {
+      "label": "LWHUDSwiftUI.swift",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L1",
+      "id": "lwhud_swift_classes_lwhudswiftui_swift",
+      "community": 2,
+      "norm_label": "lwhudswiftui.swift"
+    },
+    {
+      "label": "View",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L13",
+      "id": "classes_lwhudswiftui_view",
+      "community": 2,
+      "norm_label": "view"
+    },
+    {
+      "label": ".lwHUD()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L16",
+      "id": "classes_lwhudswiftui_view_lwhud",
+      "community": 2,
+      "norm_label": ".lwhud()"
+    },
+    {
+      "label": "LWHUDViewModifier",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L29",
+      "id": "classes_lwhudswiftui_lwhudviewmodifier",
+      "community": 2,
+      "norm_label": "lwhudviewmodifier"
+    },
+    {
+      "label": "ViewModifier",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "viewmodifier",
+      "community": 2,
+      "norm_label": "viewmodifier"
+    },
+    {
+      "label": ".body()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L37",
+      "id": "classes_lwhudswiftui_lwhudviewmodifier_body",
+      "community": 2,
+      "norm_label": ".body()"
+    },
+    {
+      "label": "LWHUDRepresentable",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L54",
+      "id": "classes_lwhudswiftui_lwhudrepresentable",
+      "community": 2,
+      "norm_label": "lwhudrepresentable"
+    },
+    {
+      "label": "UIViewRepresentable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "uiviewrepresentable",
+      "community": 2,
+      "norm_label": "uiviewrepresentable"
+    },
+    {
+      "label": ".makeUIView()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L62",
+      "id": "classes_lwhudswiftui_lwhudrepresentable_makeuiview",
+      "community": 2,
+      "norm_label": ".makeuiview()"
+    },
+    {
+      "label": ".updateUIView()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L68",
+      "id": "classes_lwhudswiftui_lwhudrepresentable_updateuiview",
+      "community": 2,
+      "norm_label": ".updateuiview()"
+    },
+    {
+      "label": "LWProgressIndicatorView",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L96",
+      "id": "classes_lwhudswiftui_lwprogressindicatorview",
+      "community": 2,
+      "norm_label": "lwprogressindicatorview"
+    },
+    {
+      "label": "ProgressStyle",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L101",
+      "id": "classes_lwhudswiftui_progressstyle",
+      "community": 2,
+      "norm_label": "progressstyle"
+    },
+    {
+      "label": "circular",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L102",
+      "id": "classes_lwhudswiftui_progressstyle_circular",
+      "community": 2,
+      "norm_label": "circular"
+    },
+    {
+      "label": "annular",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L103",
+      "id": "classes_lwhudswiftui_progressstyle_annular",
+      "community": 2,
+      "norm_label": "annular"
+    },
+    {
+      "label": "bar",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L104",
+      "id": "classes_lwhudswiftui_progressstyle_bar",
+      "community": 2,
+      "norm_label": "bar"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L107",
+      "id": "classes_lwhudswiftui_lwprogressindicatorview_init",
+      "community": 2,
+      "norm_label": ".init()"
+    },
+    {
+      "label": "CircularProgressView",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L126",
+      "id": "classes_lwhudswiftui_circularprogressview",
+      "community": 2,
+      "norm_label": "circularprogressview"
+    },
+    {
+      "label": "AnnularProgressView",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L143",
+      "id": "classes_lwhudswiftui_annularprogressview",
+      "community": 2,
+      "norm_label": "annularprogressview"
+    },
+    {
+      "label": "BarProgressView",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L160",
+      "id": "classes_lwhudswiftui_barprogressview",
+      "community": 2,
+      "norm_label": "barprogressview"
+    },
+    {
+      "label": "LWHUDView",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L182",
+      "id": "classes_lwhudswiftui_lwhudview",
+      "community": 2,
+      "norm_label": "lwhudview"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L189",
+      "id": "classes_lwhudswiftui_lwhudview_init",
+      "community": 2,
+      "norm_label": ".init()"
+    },
+    {
+      "label": "HUDKey",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L256",
+      "id": "classes_lwhudswiftui_hudkey",
+      "community": 2,
+      "norm_label": "hudkey"
+    },
+    {
+      "label": "EnvironmentKey",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "environmentkey",
+      "community": 2,
+      "norm_label": "environmentkey"
+    },
+    {
+      "label": "EnvironmentValues",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L261",
+      "id": "classes_lwhudswiftui_environmentvalues",
+      "community": 2,
+      "norm_label": "environmentvalues"
+    },
+    {
+      "label": "LWHUDView_Previews",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L271",
+      "id": "classes_lwhudswiftui_lwhudview_previews",
+      "community": 6,
+      "norm_label": "lwhudview_previews"
+    },
+    {
+      "label": "PreviewProvider",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "previewprovider",
+      "community": 6,
+      "norm_label": "previewprovider"
+    },
+    {
+      "label": "LWHUDExample.swift",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L1",
+      "id": "lwhud_swift_classes_lwhudexample_swift",
+      "community": 6,
+      "norm_label": "lwhudexample.swift"
+    },
+    {
+      "label": "LWHUDExampleViewController",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L13",
+      "id": "classes_lwhudexample_lwhudexampleviewcontroller",
+      "community": 6,
+      "norm_label": "lwhudexampleviewcontroller"
+    },
+    {
+      "label": "UIViewController",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "uiviewcontroller",
+      "community": 6,
+      "norm_label": "uiviewcontroller"
+    },
+    {
+      "label": ".examples()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L15",
+      "id": "classes_lwhudexample_lwhudexampleviewcontroller_examples",
+      "community": 6,
+      "norm_label": ".examples()"
+    },
+    {
+      "label": ".cancelOperation()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L170",
+      "id": "classes_lwhudexample_lwhudexampleviewcontroller_canceloperation",
+      "community": 6,
+      "norm_label": ".canceloperation()"
+    },
+    {
+      "label": "LWHUDExampleView",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L178",
+      "id": "classes_lwhudexample_lwhudexampleview",
+      "community": 6,
+      "norm_label": "lwhudexampleview"
+    },
+    {
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "view",
+      "community": 6,
+      "norm_label": "view"
+    },
+    {
+      "label": ".simulateProgress()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L214",
+      "id": "classes_lwhudexample_lwhudexampleview_simulateprogress",
+      "community": 6,
+      "norm_label": ".simulateprogress()"
+    },
+    {
+      "label": "LWHUDSwiftUIExampleView",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L227",
+      "id": "classes_lwhudexample_lwhudswiftuiexampleview",
+      "community": 6,
+      "norm_label": "lwhudswiftuiexampleview"
+    },
+    {
+      "label": "LWHUDExampleView_Previews",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L256",
+      "id": "classes_lwhudexample_lwhudexampleview_previews",
+      "community": 6,
+      "norm_label": "lwhudexampleview_previews"
+    },
+    {
+      "label": "LWBackgroundView.swift",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L1",
+      "id": "lwhud_swift_classes_lwbackgroundview_swift",
+      "community": 8,
+      "norm_label": "lwbackgroundview.swift"
+    },
+    {
+      "label": "LWBackgroundView",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L10",
+      "id": "classes_lwbackgroundview_lwbackgroundview",
+      "community": 8,
+      "norm_label": "lwbackgroundview"
+    },
+    {
+      "label": "UIView",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "uiview",
+      "community": 5,
+      "norm_label": "uiview"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L45",
+      "id": "classes_lwbackgroundview_lwbackgroundview_init",
+      "community": 8,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".commonInit()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L55",
+      "id": "classes_lwbackgroundview_lwbackgroundview_commoninit",
+      "community": 8,
+      "norm_label": ".commoninit()"
+    },
+    {
+      "label": ".updateForBackgroundStyle()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L71",
+      "id": "classes_lwbackgroundview_lwbackgroundview_updateforbackgroundstyle",
+      "community": 8,
+      "norm_label": ".updateforbackgroundstyle()"
+    },
+    {
+      "label": ".updateViews()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L93",
+      "id": "classes_lwbackgroundview_lwbackgroundview_updateviews",
+      "community": 8,
+      "norm_label": ".updateviews()"
+    },
+    {
+      "label": "LWHUDRoundedButton",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L104",
+      "id": "classes_lwbackgroundview_lwhudroundedbutton",
+      "community": 8,
+      "norm_label": "lwhudroundedbutton"
+    },
+    {
+      "label": "UIButton",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "uibutton",
+      "community": 8,
+      "norm_label": "uibutton"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L108",
+      "id": "classes_lwbackgroundview_lwhudroundedbutton_init",
+      "community": 8,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".layoutSubviews()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L120",
+      "id": "classes_lwbackgroundview_lwhudroundedbutton_layoutsubviews",
+      "community": 8,
+      "norm_label": ".layoutsubviews()"
+    },
+    {
+      "label": ".setTitleColor()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L136",
+      "id": "classes_lwbackgroundview_lwhudroundedbutton_settitlecolor",
+      "community": 8,
+      "norm_label": ".settitlecolor()"
+    },
+    {
+      "label": "LWProgressViews.swift",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L1",
+      "id": "lwhud_swift_classes_lwprogressviews_swift",
+      "community": 5,
+      "norm_label": "lwprogressviews.swift"
+    },
+    {
+      "label": "LWRoundProgressView",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L12",
+      "id": "classes_lwprogressviews_lwroundprogressview",
+      "community": 5,
+      "norm_label": "lwroundprogressview"
+    },
+    {
+      "label": "LWProgressView",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "lwprogressview",
+      "community": 5,
+      "norm_label": "lwprogressview"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L50",
+      "id": "classes_lwprogressviews_lwroundprogressview_init",
+      "community": 5,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".commonInit()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L64",
+      "id": "classes_lwprogressviews_lwroundprogressview_commoninit",
+      "community": 5,
+      "norm_label": ".commoninit()"
+    },
+    {
+      "label": ".draw()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L77",
+      "id": "classes_lwprogressviews_lwroundprogressview_draw",
+      "community": 5,
+      "norm_label": ".draw()"
+    },
+    {
+      "label": "LWBarProgressView",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L130",
+      "id": "classes_lwprogressviews_lwbarprogressview",
+      "community": 5,
+      "norm_label": "lwbarprogressview"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L168",
+      "id": "classes_lwprogressviews_lwbarprogressview_init",
+      "community": 5,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".commonInit()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L182",
+      "id": "classes_lwprogressviews_lwbarprogressview_commoninit",
+      "community": 5,
+      "norm_label": ".commoninit()"
+    },
+    {
+      "label": ".draw()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L195",
+      "id": "classes_lwprogressviews_lwbarprogressview_draw",
+      "community": 5,
+      "norm_label": ".draw()"
+    },
+    {
+      "label": "LWHUD.swift",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L1",
+      "id": "lwhud_swift_classes_lwhud_swift",
+      "community": 4,
+      "norm_label": "lwhud.swift"
+    },
+    {
+      "label": "LWHUDMode",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L17",
+      "id": "classes_lwhud_lwhudmode",
+      "community": 4,
+      "norm_label": "lwhudmode"
+    },
+    {
+      "label": "indeterminate",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L18",
+      "id": "classes_lwhud_lwhudmode_indeterminate",
+      "community": 4,
+      "norm_label": "indeterminate"
+    },
+    {
+      "label": "determinate",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L19",
+      "id": "classes_lwhud_lwhudmode_determinate",
+      "community": 4,
+      "norm_label": "determinate"
+    },
+    {
+      "label": "determinateHorizontalBar",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L20",
+      "id": "classes_lwhud_lwhudmode_determinatehorizontalbar",
+      "community": 4,
+      "norm_label": "determinatehorizontalbar"
+    },
+    {
+      "label": "annularDeterminate",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L21",
+      "id": "classes_lwhud_lwhudmode_annulardeterminate",
+      "community": 4,
+      "norm_label": "annulardeterminate"
+    },
+    {
+      "label": "customView",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L22",
+      "id": "classes_lwhud_lwhudmode_customview",
+      "community": 4,
+      "norm_label": "customview"
+    },
+    {
+      "label": "text",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L23",
+      "id": "classes_lwhud_lwhudmode_text",
+      "community": 4,
+      "norm_label": "text"
+    },
+    {
+      "label": "LWHUDAnimation",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L26",
+      "id": "classes_lwhud_lwhudanimation",
+      "community": 4,
+      "norm_label": "lwhudanimation"
+    },
+    {
+      "label": "fade",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L27",
+      "id": "classes_lwhud_lwhudanimation_fade",
+      "community": 4,
+      "norm_label": "fade"
+    },
+    {
+      "label": "zoom",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L28",
+      "id": "classes_lwhud_lwhudanimation_zoom",
+      "community": 4,
+      "norm_label": "zoom"
+    },
+    {
+      "label": "zoomOut",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L29",
+      "id": "classes_lwhud_lwhudanimation_zoomout",
+      "community": 4,
+      "norm_label": "zoomout"
+    },
+    {
+      "label": "zoomIn",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L30",
+      "id": "classes_lwhud_lwhudanimation_zoomin",
+      "community": 4,
+      "norm_label": "zoomin"
+    },
+    {
+      "label": "LWHUDBackgroundStyle",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L33",
+      "id": "classes_lwhud_lwhudbackgroundstyle",
+      "community": 4,
+      "norm_label": "lwhudbackgroundstyle"
+    },
+    {
+      "label": "solidColor",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L34",
+      "id": "classes_lwhud_lwhudbackgroundstyle_solidcolor",
+      "community": 4,
+      "norm_label": "solidcolor"
+    },
+    {
+      "label": "blur",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L35",
+      "id": "classes_lwhud_lwhudbackgroundstyle_blur",
+      "community": 4,
+      "norm_label": "blur"
+    },
+    {
+      "label": "LWHUDDelegate",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L42",
+      "id": "classes_lwhud_lwhuddelegate",
+      "community": 4,
+      "norm_label": "lwhuddelegate"
+    },
+    {
+      "label": "AnyObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "anyobject",
+      "community": 4,
+      "norm_label": "anyobject"
+    },
+    {
+      "label": "LWHUD",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L28",
+      "id": "classes_lwhud_lwhud",
+      "community": 0,
+      "norm_label": "lwhud"
+    },
+    {
+      "label": ".showHUD()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L53",
+      "id": "classes_lwhud_lwhud_showhud",
+      "community": 7,
+      "norm_label": ".showhud()"
+    },
+    {
+      "label": ".hideHUD()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L62",
+      "id": "classes_lwhud_lwhud_hidehud",
+      "community": 7,
+      "norm_label": ".hidehud()"
+    },
+    {
+      "label": ".hud()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L70",
+      "id": "classes_lwhud_lwhud_hud",
+      "community": 7,
+      "norm_label": ".hud()"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L194",
+      "id": "classes_lwhud_lwhud_init",
+      "community": 5,
+      "norm_label": ".init()"
+    },
+    {
+      "label": "-commonInit",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L94",
+      "id": "classes_lwhud_lwhud_commoninit",
+      "community": 5,
+      "norm_label": "-commoninit"
+    },
+    {
+      "label": ".deinit()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L226",
+      "id": "classes_lwhud_lwhud_deinit",
+      "community": 15,
+      "norm_label": ".deinit()"
+    },
+    {
+      "label": "-show",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1261",
+      "id": "classes_lwhud_lwhud_show",
+      "community": 7,
+      "norm_label": "-show"
+    },
+    {
+      "label": "-hide",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1265",
+      "id": "classes_lwhud_lwhud_hide",
+      "community": 7,
+      "norm_label": "-hide"
+    },
+    {
+      "label": "-handleGraceTimer",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L191",
+      "id": "classes_lwhud_lwhud_handlegracetimer",
+      "community": 7,
+      "norm_label": "-handlegracetimer"
+    },
+    {
+      "label": "-handleMinShowTimer",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L198",
+      "id": "classes_lwhud_lwhud_handleminshowtimer",
+      "community": 7,
+      "norm_label": "-handleminshowtimer"
+    },
+    {
+      "label": "-showUsingAnimation",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L214",
+      "id": "classes_lwhud_lwhud_showusinganimation",
+      "community": 7,
+      "norm_label": "-showusinganimation"
+    },
+    {
+      "label": "-hideUsingAnimation",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L239",
+      "id": "classes_lwhud_lwhud_hideusinganimation",
+      "community": 7,
+      "norm_label": "-hideusinganimation"
+    },
+    {
+      "label": ".animate()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L323",
+      "id": "classes_lwhud_lwhud_animate",
+      "community": 7,
+      "norm_label": ".animate()"
+    },
+    {
+      "label": "-done",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L296",
+      "id": "classes_lwhud_lwhud_done",
+      "community": 7,
+      "norm_label": "-done"
+    },
+    {
+      "label": "-setupViews",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L319",
+      "id": "classes_lwhud_lwhud_setupviews",
+      "community": 5,
+      "norm_label": "-setupviews"
+    },
+    {
+      "label": "-updateIndicators",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L383",
+      "id": "classes_lwhud_lwhud_updateindicators",
+      "community": 5,
+      "norm_label": "-updateindicators"
+    },
+    {
+      "label": ".updateViews()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L488",
+      "id": "classes_lwhud_lwhud_updateviews",
+      "community": 5,
+      "norm_label": ".updateviews()"
+    },
+    {
+      "label": "-updateBezelMotionEffects",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L503",
+      "id": "classes_lwhud_lwhud_updatebezelmotioneffects",
+      "community": 5,
+      "norm_label": "-updatebezelmotioneffects"
+    },
+    {
+      "label": "-updateConstraints",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L533",
+      "id": "classes_lwhud_lwhud_updateconstraints",
+      "community": 14,
+      "norm_label": "-updateconstraints"
+    },
+    {
+      "label": "-layoutSubviews",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L623",
+      "id": "classes_lwhud_lwhud_layoutsubviews",
+      "community": 14,
+      "norm_label": "-layoutsubviews"
+    },
+    {
+      "label": "-updatePaddingConstraints",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L634",
+      "id": "classes_lwhud_lwhud_updatepaddingconstraints",
+      "community": 14,
+      "norm_label": "-updatepaddingconstraints"
+    },
+    {
+      "label": ".setProgressDisplayLinkEnabled()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L636",
+      "id": "classes_lwhud_lwhud_setprogressdisplaylinkenabled",
+      "community": 7,
+      "norm_label": ".setprogressdisplaylinkenabled()"
+    },
+    {
+      "label": "-updateProgressFromProgressObject",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L757",
+      "id": "classes_lwhud_lwhud_updateprogressfromprogressobject",
+      "community": 0,
+      "norm_label": "-updateprogressfromprogressobject"
+    },
+    {
+      "label": "-registerForNotifications",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L763",
+      "id": "classes_lwhud_lwhud_registerfornotifications",
+      "community": 5,
+      "norm_label": "-registerfornotifications"
+    },
+    {
+      "label": "-unregisterFromNotifications",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L772",
+      "id": "classes_lwhud_lwhud_unregisterfromnotifications",
+      "community": 15,
+      "norm_label": "-unregisterfromnotifications"
+    },
+    {
+      "label": "-statusBarOrientationDidChange",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L780",
+      "id": "classes_lwhud_lwhud_statusbarorientationdidchange",
+      "community": 13,
+      "norm_label": "-statusbarorientationdidchange"
+    },
+    {
+      "label": ".updateForCurrentOrientation()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L672",
+      "id": "classes_lwhud_lwhud_updateforcurrentorientation",
+      "community": 13,
+      "norm_label": ".updateforcurrentorientation()"
+    },
+    {
+      "label": "-didMoveToSuperview",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L208",
+      "id": "classes_lwhud_lwhud_didmovetosuperview",
+      "community": 13,
+      "norm_label": "-didmovetosuperview"
+    },
+    {
+      "label": "LWProgressView",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L686",
+      "id": "classes_lwhud_lwprogressview",
+      "community": 4,
+      "norm_label": "lwprogressview"
+    },
+    {
+      "label": "LWHUD+Extensions.swift",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L1",
+      "id": "lwhud_swift_classes_lwhud_extensions_swift",
+      "community": 1,
+      "norm_label": "lwhud+extensions.swift"
+    },
+    {
+      "label": "LWHUD",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L12",
+      "id": "classes_lwhud_extensions_lwhud",
+      "community": 1,
+      "norm_label": "lwhud"
+    },
+    {
+      "label": ".showActivity()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L15",
+      "id": "classes_lwhud_extensions_lwhud_showactivity",
+      "community": 1,
+      "norm_label": ".showactivity()"
+    },
+    {
+      "label": ".showText()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L24",
+      "id": "classes_lwhud_extensions_lwhud_showtext",
+      "community": 1,
+      "norm_label": ".showtext()"
+    },
+    {
+      "label": ".showSuccess()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L35",
+      "id": "classes_lwhud_extensions_lwhud_showsuccess",
+      "community": 1,
+      "norm_label": ".showsuccess()"
+    },
+    {
+      "label": ".showError()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L46",
+      "id": "classes_lwhud_extensions_lwhud_showerror",
+      "community": 1,
+      "norm_label": ".showerror()"
+    },
+    {
+      "label": ".showProgress()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L57",
+      "id": "classes_lwhud_extensions_lwhud_showprogress",
+      "community": 1,
+      "norm_label": ".showprogress()"
+    },
+    {
+      "label": ".updateProgress()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L67",
+      "id": "classes_lwhud_extensions_lwhud_updateprogress",
+      "community": 1,
+      "norm_label": ".updateprogress()"
+    },
+    {
+      "label": ".createCheckmarkView()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L76",
+      "id": "classes_lwhud_extensions_lwhud_createcheckmarkview",
+      "community": 1,
+      "norm_label": ".createcheckmarkview()"
+    },
+    {
+      "label": ".createCrossView()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L82",
+      "id": "classes_lwhud_extensions_lwhud_createcrossview",
+      "community": 1,
+      "norm_label": ".createcrossview()"
+    },
+    {
+      "label": ".drawCheckmark()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L88",
+      "id": "classes_lwhud_extensions_lwhud_drawcheckmark",
+      "community": 1,
+      "norm_label": ".drawcheckmark()"
+    },
+    {
+      "label": ".drawCross()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L106",
+      "id": "classes_lwhud_extensions_lwhud_drawcross",
+      "community": 1,
+      "norm_label": ".drawcross()"
+    },
+    {
+      "label": "UIViewController",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L127",
+      "id": "classes_lwhud_extensions_uiviewcontroller",
+      "community": 1,
+      "norm_label": "uiviewcontroller"
+    },
+    {
+      "label": ".showHUD()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L130",
+      "id": "classes_lwhud_extensions_uiviewcontroller_showhud",
+      "community": 1,
+      "norm_label": ".showhud()"
+    },
+    {
+      "label": ".hideHUD()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L136",
+      "id": "classes_lwhud_extensions_uiviewcontroller_hidehud",
+      "community": 1,
+      "norm_label": ".hidehud()"
+    },
+    {
+      "label": ".showActivity()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L142",
+      "id": "classes_lwhud_extensions_uiviewcontroller_showactivity",
+      "community": 1,
+      "norm_label": ".showactivity()"
+    },
+    {
+      "label": ".showSuccess()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L148",
+      "id": "classes_lwhud_extensions_uiviewcontroller_showsuccess",
+      "community": 1,
+      "norm_label": ".showsuccess()"
+    },
+    {
+      "label": ".showError()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L154",
+      "id": "classes_lwhud_extensions_uiviewcontroller_showerror",
+      "community": 1,
+      "norm_label": ".showerror()"
+    },
+    {
+      "label": ".showText()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L160",
+      "id": "classes_lwhud_extensions_uiviewcontroller_showtext",
+      "community": 1,
+      "norm_label": ".showtext()"
+    },
+    {
+      "label": ".showProgress()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L166",
+      "id": "classes_lwhud_extensions_uiviewcontroller_showprogress",
+      "community": 1,
+      "norm_label": ".showprogress()"
+    },
+    {
+      "label": "UIWindow",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L174",
+      "id": "classes_lwhud_extensions_uiwindow",
+      "community": 1,
+      "norm_label": "uiwindow"
+    },
+    {
+      "label": ".showHUD()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L186",
+      "id": "classes_lwhud_extensions_uiwindow_showhud",
+      "community": 1,
+      "norm_label": ".showhud()"
+    },
+    {
+      "label": ".hideHUD()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L192",
+      "id": "classes_lwhud_extensions_uiwindow_hidehud",
+      "community": 1,
+      "norm_label": ".hidehud()"
+    },
+    {
+      "label": "showHUD()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L201",
+      "id": "classes_lwhud_extensions_showhud",
+      "community": 1,
+      "norm_label": "showhud()"
+    },
+    {
+      "label": "hideHUD()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L210",
+      "id": "classes_lwhud_extensions_hidehud",
+      "community": 1,
+      "norm_label": "hidehud()"
+    },
+    {
+      "label": "showActivity()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L219",
+      "id": "classes_lwhud_extensions_showactivity",
+      "community": 1,
+      "norm_label": "showactivity()"
+    },
+    {
+      "label": "showSuccess()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L228",
+      "id": "classes_lwhud_extensions_showsuccess",
+      "community": 1,
+      "norm_label": "showsuccess()"
+    },
+    {
+      "label": "showError()",
+      "file_type": "code",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L237",
+      "id": "classes_lwhud_extensions_showerror",
+      "community": 1,
+      "norm_label": "showerror()"
+    },
+    {
+      "label": "LWHUD.h",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.h",
+      "source_location": "L1",
+      "id": "lwhud_classes_lwhud_h",
+      "community": 20,
+      "norm_label": "lwhud.h"
+    },
+    {
+      "label": "LWHUD.m",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1",
+      "id": "lwhud_classes_lwhud_m",
+      "community": 3,
+      "norm_label": "lwhud.m"
+    },
+    {
+      "label": "LWHUDRoundedButton",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L53",
+      "id": "classes_lwhud_lwhudroundedbutton",
+      "community": 3,
+      "norm_label": "lwhudroundedbutton"
+    },
+    {
+      "label": "-showHUDAddedToanimated",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L61",
+      "id": "classes_lwhud_lwhud_showhudaddedtoanimated",
+      "community": 0,
+      "norm_label": "-showhudaddedtoanimated"
+    },
+    {
+      "label": "-hideHUDForViewanimated",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L69",
+      "id": "classes_lwhud_lwhud_hidehudforviewanimated",
+      "community": 0,
+      "norm_label": "-hidehudforviewanimated"
+    },
+    {
+      "label": "-HUDForView",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L79",
+      "id": "classes_lwhud_lwhud_hudforview",
+      "community": 0,
+      "norm_label": "-hudforview"
+    },
+    {
+      "label": "-initWithFrame",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L118",
+      "id": "classes_lwhud_lwhud_initwithframe",
+      "community": 0,
+      "norm_label": "-initwithframe"
+    },
+    {
+      "label": "-initWithCoder",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L125",
+      "id": "classes_lwhud_lwhud_initwithcoder",
+      "community": 0,
+      "norm_label": "-initwithcoder"
+    },
+    {
+      "label": "-initWithView",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L132",
+      "id": "classes_lwhud_lwhud_initwithview",
+      "community": 0,
+      "norm_label": "-initwithview"
+    },
+    {
+      "label": "-dealloc",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L137",
+      "id": "classes_lwhud_lwhud_dealloc",
+      "community": 0,
+      "norm_label": "-dealloc"
+    },
+    {
+      "label": "-showAnimated",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L143",
+      "id": "classes_lwhud_lwhud_showanimated",
+      "community": 0,
+      "norm_label": "-showanimated"
+    },
+    {
+      "label": "-hideAnimated",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L160",
+      "id": "classes_lwhud_lwhud_hideanimated",
+      "community": 0,
+      "norm_label": "-hideanimated"
+    },
+    {
+      "label": "-hideAnimatedafterDelay",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L180",
+      "id": "classes_lwhud_lwhud_hideanimatedafterdelay",
+      "community": 0,
+      "norm_label": "-hideanimatedafterdelay"
+    },
+    {
+      "label": "-handleHideTimer",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L202",
+      "id": "classes_lwhud_lwhud_handlehidetimer",
+      "community": 0,
+      "norm_label": "-handlehidetimer"
+    },
+    {
+      "label": "-animateInwithTypecompletion",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L253",
+      "id": "classes_lwhud_lwhud_animateinwithtypecompletion",
+      "community": 0,
+      "norm_label": "-animateinwithtypecompletion"
+    },
+    {
+      "label": "-updateViewsForColor",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L439",
+      "id": "classes_lwhud_lwhud_updateviewsforcolor",
+      "community": 0,
+      "norm_label": "-updateviewsforcolor"
+    },
+    {
+      "label": "-applyPrioritytoConstraints",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L649",
+      "id": "classes_lwhud_lwhud_applyprioritytoconstraints",
+      "community": 0,
+      "norm_label": "-applyprioritytoconstraints"
+    },
+    {
+      "label": "-setMode",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L657",
+      "id": "classes_lwhud_lwhud_setmode",
+      "community": 0,
+      "norm_label": "-setmode"
+    },
+    {
+      "label": "-setCustomView",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L664",
+      "id": "classes_lwhud_lwhud_setcustomview",
+      "community": 0,
+      "norm_label": "-setcustomview"
+    },
+    {
+      "label": "-setOffset",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L673",
+      "id": "classes_lwhud_lwhud_setoffset",
+      "community": 0,
+      "norm_label": "-setoffset"
+    },
+    {
+      "label": "-setMargin",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L680",
+      "id": "classes_lwhud_lwhud_setmargin",
+      "community": 0,
+      "norm_label": "-setmargin"
+    },
+    {
+      "label": "-setMinSize",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L687",
+      "id": "classes_lwhud_lwhud_setminsize",
+      "community": 0,
+      "norm_label": "-setminsize"
+    },
+    {
+      "label": "-setSquare",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L694",
+      "id": "classes_lwhud_lwhud_setsquare",
+      "community": 0,
+      "norm_label": "-setsquare"
+    },
+    {
+      "label": "-setProgressObjectDisplayLink",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L701",
+      "id": "classes_lwhud_lwhud_setprogressobjectdisplaylink",
+      "community": 0,
+      "norm_label": "-setprogressobjectdisplaylink"
+    },
+    {
+      "label": "-setProgressObject",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L711",
+      "id": "classes_lwhud_lwhud_setprogressobject",
+      "community": 0,
+      "norm_label": "-setprogressobject"
+    },
+    {
+      "label": "-setProgress",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L718",
+      "id": "classes_lwhud_lwhud_setprogress",
+      "community": 0,
+      "norm_label": "-setprogress"
+    },
+    {
+      "label": "-setContentColor",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L728",
+      "id": "classes_lwhud_lwhud_setcontentcolor",
+      "community": 0,
+      "norm_label": "-setcontentcolor"
+    },
+    {
+      "label": "-setDefaultMotionEffectsEnabled",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L735",
+      "id": "classes_lwhud_lwhud_setdefaultmotioneffectsenabled",
+      "community": 0,
+      "norm_label": "-setdefaultmotioneffectsenabled"
+    },
+    {
+      "label": "-setNSProgressDisplayLinkEnabled",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L744",
+      "id": "classes_lwhud_lwhud_setnsprogressdisplaylinkenabled",
+      "community": 0,
+      "norm_label": "-setnsprogressdisplaylinkenabled"
+    },
+    {
+      "label": "-updateForCurrentOrientationAnimated",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L790",
+      "id": "classes_lwhud_lwhud_updateforcurrentorientationanimated",
+      "community": 0,
+      "norm_label": "-updateforcurrentorientationanimated"
+    },
+    {
+      "label": "LWRoundProgressView",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L833",
+      "id": "classes_lwhud_lwroundprogressview",
+      "community": 3,
+      "norm_label": "lwroundprogressview"
+    },
+    {
+      "label": "-init",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L837",
+      "id": "classes_lwhud_lwroundprogressview_init",
+      "community": 3,
+      "norm_label": "-init"
+    },
+    {
+      "label": "-initWithFrame",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L841",
+      "id": "classes_lwhud_lwroundprogressview_initwithframe",
+      "community": 3,
+      "norm_label": "-initwithframe"
+    },
+    {
+      "label": "-intrinsicContentSize",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L856",
+      "id": "classes_lwhud_lwroundprogressview_intrinsiccontentsize",
+      "community": 3,
+      "norm_label": "-intrinsiccontentsize"
+    },
+    {
+      "label": "-setProgress",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L862",
+      "id": "classes_lwhud_lwroundprogressview_setprogress",
+      "community": 3,
+      "norm_label": "-setprogress"
+    },
+    {
+      "label": "-setProgressTintColor",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L869",
+      "id": "classes_lwhud_lwroundprogressview_setprogresstintcolor",
+      "community": 3,
+      "norm_label": "-setprogresstintcolor"
+    },
+    {
+      "label": "-setBackgroundTintColor",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L877",
+      "id": "classes_lwhud_lwroundprogressview_setbackgroundtintcolor",
+      "community": 3,
+      "norm_label": "-setbackgroundtintcolor"
+    },
+    {
+      "label": "-drawRect",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L887",
+      "id": "classes_lwhud_lwroundprogressview_drawrect",
+      "community": 3,
+      "norm_label": "-drawrect"
+    },
+    {
+      "label": "LWBarProgressView",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L954",
+      "id": "classes_lwhud_lwbarprogressview",
+      "community": 11,
+      "norm_label": "lwbarprogressview"
+    },
+    {
+      "label": "-init",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L958",
+      "id": "classes_lwhud_lwbarprogressview_init",
+      "community": 11,
+      "norm_label": "-init"
+    },
+    {
+      "label": "-initWithFrame",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L962",
+      "id": "classes_lwhud_lwbarprogressview_initwithframe",
+      "community": 11,
+      "norm_label": "-initwithframe"
+    },
+    {
+      "label": "-intrinsicContentSize",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L977",
+      "id": "classes_lwhud_lwbarprogressview_intrinsiccontentsize",
+      "community": 11,
+      "norm_label": "-intrinsiccontentsize"
+    },
+    {
+      "label": "-setProgress",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L984",
+      "id": "classes_lwhud_lwbarprogressview_setprogress",
+      "community": 11,
+      "norm_label": "-setprogress"
+    },
+    {
+      "label": "-setProgressColor",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L991",
+      "id": "classes_lwhud_lwbarprogressview_setprogresscolor",
+      "community": 11,
+      "norm_label": "-setprogresscolor"
+    },
+    {
+      "label": "-setProgressRemainingColor",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L999",
+      "id": "classes_lwhud_lwbarprogressview_setprogressremainingcolor",
+      "community": 11,
+      "norm_label": "-setprogressremainingcolor"
+    },
+    {
+      "label": "-drawRect",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1009",
+      "id": "classes_lwhud_lwbarprogressview_drawrect",
+      "community": 11,
+      "norm_label": "-drawrect"
+    },
+    {
+      "label": "LWBackgroundView",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1084",
+      "id": "classes_lwhud_lwbackgroundview",
+      "community": 3,
+      "norm_label": "lwbackgroundview"
+    },
+    {
+      "label": "-initWithFrame",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1100",
+      "id": "classes_lwhud_lwbackgroundview_initwithframe",
+      "community": 3,
+      "norm_label": "-initwithframe"
+    },
+    {
+      "label": "-intrinsicContentSize",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1126",
+      "id": "classes_lwhud_lwbackgroundview_intrinsiccontentsize",
+      "community": 3,
+      "norm_label": "-intrinsiccontentsize"
+    },
+    {
+      "label": "-setStyle",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1133",
+      "id": "classes_lwhud_lwbackgroundview_setstyle",
+      "community": 3,
+      "norm_label": "-setstyle"
+    },
+    {
+      "label": "-setColor",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1143",
+      "id": "classes_lwhud_lwbackgroundview_setcolor",
+      "community": 3,
+      "norm_label": "-setcolor"
+    },
+    {
+      "label": "-setBlurEffectStyle",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1153",
+      "id": "classes_lwhud_lwbackgroundview_setblureffectstyle",
+      "community": 3,
+      "norm_label": "-setblureffectstyle"
+    },
+    {
+      "label": "-updateForBackgroundStyle",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1168",
+      "id": "classes_lwhud_lwbackgroundview_updateforbackgroundstyle",
+      "community": 3,
+      "norm_label": "-updateforbackgroundstyle"
+    },
+    {
+      "label": "-updateViewsForColor",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1212",
+      "id": "classes_lwhud_lwbackgroundview_updateviewsforcolor",
+      "community": 3,
+      "norm_label": "-updateviewsforcolor"
+    },
+    {
+      "label": "-hideAllHUDsForViewanimated",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1233",
+      "id": "classes_lwhud_lwhud_hideallhudsforviewanimated",
+      "community": 0,
+      "norm_label": "-hideallhudsforviewanimated"
+    },
+    {
+      "label": "-allHUDsForView",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1242",
+      "id": "classes_lwhud_lwhud_allhudsforview",
+      "community": 0,
+      "norm_label": "-allhudsforview"
+    },
+    {
+      "label": "-initWithWindow",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1255",
+      "id": "classes_lwhud_lwhud_initwithwindow",
+      "community": 0,
+      "norm_label": "-initwithwindow"
+    },
+    {
+      "label": "-hideafterDelay",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1269",
+      "id": "classes_lwhud_lwhud_hideafterdelay",
+      "community": 0,
+      "norm_label": "-hideafterdelay"
+    },
+    {
+      "label": "-showWhileExecutingonTargetwithObjectanimated",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1275",
+      "id": "classes_lwhud_lwhud_showwhileexecutingontargetwithobjectanimated",
+      "community": 0,
+      "norm_label": "-showwhileexecutingontargetwithobjectanimated"
+    },
+    {
+      "label": "-showAnimatedwhileExecutingBlock",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1285",
+      "id": "classes_lwhud_lwhud_showanimatedwhileexecutingblock",
+      "community": 0,
+      "norm_label": "-showanimatedwhileexecutingblock"
+    },
+    {
+      "label": "-showAnimatedwhileExecutingBlockcompletionBlock",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1290",
+      "id": "classes_lwhud_lwhud_showanimatedwhileexecutingblockcompletionblock",
+      "community": 0,
+      "norm_label": "-showanimatedwhileexecutingblockcompletionblock"
+    },
+    {
+      "label": "-showAnimatedwhileExecutingBlockonQueue",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1295",
+      "id": "classes_lwhud_lwhud_showanimatedwhileexecutingblockonqueue",
+      "community": 0,
+      "norm_label": "-showanimatedwhileexecutingblockonqueue"
+    },
+    {
+      "label": "-showAnimatedwhileExecutingBlockonQueuecompletionBlock",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1299",
+      "id": "classes_lwhud_lwhud_showanimatedwhileexecutingblockonqueuecompletionblock",
+      "community": 0,
+      "norm_label": "-showanimatedwhileexecutingblockonqueuecompletionblock"
+    },
+    {
+      "label": "-cleanUp",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1311",
+      "id": "classes_lwhud_lwhud_cleanup",
+      "community": 0,
+      "norm_label": "-cleanup"
+    },
+    {
+      "label": "-labelText",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1318",
+      "id": "classes_lwhud_lwhud_labeltext",
+      "community": 0,
+      "norm_label": "-labeltext"
+    },
+    {
+      "label": "-setLabelText",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1322",
+      "id": "classes_lwhud_lwhud_setlabeltext",
+      "community": 0,
+      "norm_label": "-setlabeltext"
+    },
+    {
+      "label": "-labelFont",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1327",
+      "id": "classes_lwhud_lwhud_labelfont",
+      "community": 0,
+      "norm_label": "-labelfont"
+    },
+    {
+      "label": "-setLabelFont",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1331",
+      "id": "classes_lwhud_lwhud_setlabelfont",
+      "community": 0,
+      "norm_label": "-setlabelfont"
+    },
+    {
+      "label": "-labelColor",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1336",
+      "id": "classes_lwhud_lwhud_labelcolor",
+      "community": 0,
+      "norm_label": "-labelcolor"
+    },
+    {
+      "label": "-setLabelColor",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1340",
+      "id": "classes_lwhud_lwhud_setlabelcolor",
+      "community": 0,
+      "norm_label": "-setlabelcolor"
+    },
+    {
+      "label": "-detailsLabelText",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1345",
+      "id": "classes_lwhud_lwhud_detailslabeltext",
+      "community": 0,
+      "norm_label": "-detailslabeltext"
+    },
+    {
+      "label": "-setDetailsLabelText",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1349",
+      "id": "classes_lwhud_lwhud_setdetailslabeltext",
+      "community": 0,
+      "norm_label": "-setdetailslabeltext"
+    },
+    {
+      "label": "-detailsLabelFont",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1354",
+      "id": "classes_lwhud_lwhud_detailslabelfont",
+      "community": 0,
+      "norm_label": "-detailslabelfont"
+    },
+    {
+      "label": "-setDetailsLabelFont",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1358",
+      "id": "classes_lwhud_lwhud_setdetailslabelfont",
+      "community": 0,
+      "norm_label": "-setdetailslabelfont"
+    },
+    {
+      "label": "-detailsLabelColor",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1363",
+      "id": "classes_lwhud_lwhud_detailslabelcolor",
+      "community": 0,
+      "norm_label": "-detailslabelcolor"
+    },
+    {
+      "label": "-setDetailsLabelColor",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1367",
+      "id": "classes_lwhud_lwhud_setdetailslabelcolor",
+      "community": 0,
+      "norm_label": "-setdetailslabelcolor"
+    },
+    {
+      "label": "-opacity",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1372",
+      "id": "classes_lwhud_lwhud_opacity",
+      "community": 0,
+      "norm_label": "-opacity"
+    },
+    {
+      "label": "-setOpacity",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1376",
+      "id": "classes_lwhud_lwhud_setopacity",
+      "community": 0,
+      "norm_label": "-setopacity"
+    },
+    {
+      "label": "-color",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1381",
+      "id": "classes_lwhud_lwhud_color",
+      "community": 0,
+      "norm_label": "-color"
+    },
+    {
+      "label": "-setColor",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1385",
+      "id": "classes_lwhud_lwhud_setcolor",
+      "community": 0,
+      "norm_label": "-setcolor"
+    },
+    {
+      "label": "-yOffset",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1390",
+      "id": "classes_lwhud_lwhud_yoffset",
+      "community": 0,
+      "norm_label": "-yoffset"
+    },
+    {
+      "label": "-setYOffset",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1394",
+      "id": "classes_lwhud_lwhud_setyoffset",
+      "community": 0,
+      "norm_label": "-setyoffset"
+    },
+    {
+      "label": "-xOffset",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1399",
+      "id": "classes_lwhud_lwhud_xoffset",
+      "community": 0,
+      "norm_label": "-xoffset"
+    },
+    {
+      "label": "-setXOffset",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1403",
+      "id": "classes_lwhud_lwhud_setxoffset",
+      "community": 0,
+      "norm_label": "-setxoffset"
+    },
+    {
+      "label": "-cornerRadius",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1408",
+      "id": "classes_lwhud_lwhud_cornerradius",
+      "community": 0,
+      "norm_label": "-cornerradius"
+    },
+    {
+      "label": "-setCornerRadius",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1412",
+      "id": "classes_lwhud_lwhud_setcornerradius",
+      "community": 0,
+      "norm_label": "-setcornerradius"
+    },
+    {
+      "label": "-dimBackground",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1417",
+      "id": "classes_lwhud_lwhud_dimbackground",
+      "community": 0,
+      "norm_label": "-dimbackground"
+    },
+    {
+      "label": "-setDimBackground",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1423",
+      "id": "classes_lwhud_lwhud_setdimbackground",
+      "community": 0,
+      "norm_label": "-setdimbackground"
+    },
+    {
+      "label": "-size",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1429",
+      "id": "classes_lwhud_lwhud_size",
+      "community": 0,
+      "norm_label": "-size"
+    },
+    {
+      "label": "-activityIndicatorColor",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1433",
+      "id": "classes_lwhud_lwhud_activityindicatorcolor",
+      "community": 0,
+      "norm_label": "-activityindicatorcolor"
+    },
+    {
+      "label": "-setActivityIndicatorColor",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1437",
+      "id": "classes_lwhud_lwhud_setactivityindicatorcolor",
+      "community": 0,
+      "norm_label": "-setactivityindicatorcolor"
+    },
+    {
+      "label": "-initWithFrame",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1453",
+      "id": "classes_lwhud_lwhudroundedbutton_initwithframe",
+      "community": 3,
+      "norm_label": "-initwithframe"
+    },
+    {
+      "label": "-layoutSubviews",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1464",
+      "id": "classes_lwhud_lwhudroundedbutton_layoutsubviews",
+      "community": 3,
+      "norm_label": "-layoutsubviews"
+    },
+    {
+      "label": "-intrinsicContentSize",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1471",
+      "id": "classes_lwhud_lwhudroundedbutton_intrinsiccontentsize",
+      "community": 3,
+      "norm_label": "-intrinsiccontentsize"
+    },
+    {
+      "label": "-setTitleColorforState",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1482",
+      "id": "classes_lwhud_lwhudroundedbutton_settitlecolorforstate",
+      "community": 3,
+      "norm_label": "-settitlecolorforstate"
+    },
+    {
+      "label": "-setHighlighted",
+      "file_type": "code",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1489",
+      "id": "classes_lwhud_lwhudroundedbutton_sethighlighted",
+      "community": 3,
+      "norm_label": "-sethighlighted"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "example_tests_tests_m",
+      "target": "tests_tests_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "tests_tests_tests",
+      "target": "tests_tests_tests_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "tests_tests_tests",
+      "target": "tests_tests_tests_teardown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/Tests/Tests.m",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "tests_tests_tests",
+      "target": "tests_tests_tests_testexample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWHUD/LWAppDelegate.m",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "example_lwhud_lwappdelegate_m",
+      "target": "lwhud_lwappdelegate_lwappdelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWHUD/LWAppDelegate.m",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "lwhud_lwappdelegate_lwappdelegate",
+      "target": "lwhud_lwappdelegate_lwappdelegate_applicationdidfinishlaunchingwithoptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWHUD/LWAppDelegate.m",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "lwhud_lwappdelegate_lwappdelegate",
+      "target": "lwhud_lwappdelegate_lwappdelegate_applicationwillresignactive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWHUD/LWAppDelegate.m",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "lwhud_lwappdelegate_lwappdelegate",
+      "target": "lwhud_lwappdelegate_lwappdelegate_applicationdidenterbackground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWHUD/LWAppDelegate.m",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "lwhud_lwappdelegate_lwappdelegate",
+      "target": "lwhud_lwappdelegate_lwappdelegate_applicationwillenterforeground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWHUD/LWAppDelegate.m",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "lwhud_lwappdelegate_lwappdelegate",
+      "target": "lwhud_lwappdelegate_lwappdelegate_applicationdidbecomeactive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWHUD/LWAppDelegate.m",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "lwhud_lwappdelegate_lwappdelegate",
+      "target": "lwhud_lwappdelegate_lwappdelegate_applicationwillterminate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWHUD/LWViewController.m",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "example_lwhud_lwviewcontroller_m",
+      "target": "lwhud_lwviewcontroller_lwviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWHUD/LWViewController.m",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "lwhud_lwviewcontroller_lwviewcontroller",
+      "target": "lwhud_lwviewcontroller_lwviewcontroller_viewdidload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWHUD/LWViewController.m",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "lwhud_lwviewcontroller_lwviewcontroller",
+      "target": "lwhud_lwviewcontroller_lwviewcontroller_showhud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWHUD/LWViewController.m",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "lwhud_lwviewcontroller_lwviewcontroller",
+      "target": "lwhud_lwviewcontroller_lwviewcontroller_showloading",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWHUD/LWViewController.m",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "lwhud_lwviewcontroller_lwviewcontroller",
+      "target": "lwhud_lwviewcontroller_lwviewcontroller_showloadingwithprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWHUD/LWViewController.m",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "lwhud_lwviewcontroller_lwviewcontroller",
+      "target": "lwhud_lwviewcontroller_lwviewcontroller_hideloading",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Example/LWHUD/LWViewController.m",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "lwhud_lwviewcontroller_lwviewcontroller",
+      "target": "lwhud_lwviewcontroller_lwviewcontroller_showtoasttextduration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhudswiftui_swift",
+      "target": "classes_lwhudswiftui_view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhudswiftui_swift",
+      "target": "classes_lwhudswiftui_lwhudviewmodifier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhudswiftui_swift",
+      "target": "classes_lwhudswiftui_lwhudrepresentable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhudswiftui_swift",
+      "target": "classes_lwhudswiftui_lwprogressindicatorview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhudswiftui_swift",
+      "target": "classes_lwhudswiftui_progressstyle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhudswiftui_swift",
+      "target": "classes_lwhudswiftui_circularprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhudswiftui_swift",
+      "target": "classes_lwhudswiftui_annularprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhudswiftui_swift",
+      "target": "classes_lwhudswiftui_barprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhudswiftui_swift",
+      "target": "classes_lwhudswiftui_lwhudview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L256",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhudswiftui_swift",
+      "target": "classes_lwhudswiftui_hudkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L261",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhudswiftui_swift",
+      "target": "classes_lwhudswiftui_environmentvalues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L271",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhudswiftui_swift",
+      "target": "classes_lwhudswiftui_lwhudview_previews",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_view",
+      "target": "classes_lwhudswiftui_view_lwhud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_lwprogressindicatorview",
+      "target": "classes_lwhudswiftui_view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_circularprogressview",
+      "target": "classes_lwhudswiftui_view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_annularprogressview",
+      "target": "classes_lwhudswiftui_view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_barprogressview",
+      "target": "classes_lwhudswiftui_view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_lwhudview",
+      "target": "classes_lwhudswiftui_view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_view_lwhud",
+      "target": "classes_lwhudswiftui_lwhudviewmodifier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_lwhudrepresentable_updateuiview",
+      "target": "classes_lwhudswiftui_view_lwhud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_lwhudviewmodifier",
+      "target": "viewmodifier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_lwhudviewmodifier",
+      "target": "classes_lwhudswiftui_lwhudviewmodifier_body",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_lwhudviewmodifier_body",
+      "target": "classes_lwhudswiftui_lwhudrepresentable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_lwhudrepresentable",
+      "target": "uiviewrepresentable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_lwhudrepresentable",
+      "target": "classes_lwhudswiftui_lwhudrepresentable_makeuiview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_lwhudrepresentable",
+      "target": "classes_lwhudswiftui_lwhudrepresentable_updateuiview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_lwprogressindicatorview",
+      "target": "classes_lwhudswiftui_lwprogressindicatorview_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_progressstyle",
+      "target": "classes_lwhudswiftui_progressstyle_circular",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_progressstyle",
+      "target": "classes_lwhudswiftui_progressstyle_annular",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_progressstyle",
+      "target": "classes_lwhudswiftui_progressstyle_bar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_lwhudview",
+      "target": "classes_lwhudswiftui_lwhudview_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L256",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_hudkey",
+      "target": "environmentkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDSwiftUI.swift",
+      "source_location": "L271",
+      "weight": 1.0,
+      "source": "classes_lwhudswiftui_lwhudview_previews",
+      "target": "previewprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L256",
+      "weight": 1.0,
+      "source": "classes_lwhudexample_lwhudexampleview_previews",
+      "target": "previewprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhudexample_swift",
+      "target": "classes_lwhudexample_lwhudexampleviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhudexample_swift",
+      "target": "classes_lwhudexample_lwhudexampleview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L227",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhudexample_swift",
+      "target": "classes_lwhudexample_lwhudswiftuiexampleview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L256",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhudexample_swift",
+      "target": "classes_lwhudexample_lwhudexampleview_previews",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "classes_lwhudexample_lwhudexampleviewcontroller",
+      "target": "uiviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "classes_lwhudexample_lwhudexampleviewcontroller",
+      "target": "classes_lwhudexample_lwhudexampleviewcontroller_examples",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "classes_lwhudexample_lwhudexampleviewcontroller",
+      "target": "classes_lwhudexample_lwhudexampleviewcontroller_canceloperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "classes_lwhudexample_lwhudexampleview",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L214",
+      "weight": 1.0,
+      "source": "classes_lwhudexample_lwhudexampleview",
+      "target": "classes_lwhudexample_lwhudexampleview_simulateprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUDExample.swift",
+      "source_location": "L227",
+      "weight": 1.0,
+      "source": "classes_lwhudexample_lwhudswiftuiexampleview",
+      "target": "view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwbackgroundview_swift",
+      "target": "classes_lwbackgroundview_lwbackgroundview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwbackgroundview_swift",
+      "target": "classes_lwbackgroundview_lwhudroundedbutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "classes_lwbackgroundview_lwbackgroundview",
+      "target": "uiview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "classes_lwbackgroundview_lwbackgroundview",
+      "target": "classes_lwbackgroundview_lwbackgroundview_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "classes_lwbackgroundview_lwbackgroundview",
+      "target": "classes_lwbackgroundview_lwbackgroundview_commoninit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "classes_lwbackgroundview_lwbackgroundview",
+      "target": "classes_lwbackgroundview_lwbackgroundview_updateforbackgroundstyle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "classes_lwbackgroundview_lwbackgroundview",
+      "target": "classes_lwbackgroundview_lwbackgroundview_updateviews",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "classes_lwprogressviews_lwroundprogressview",
+      "target": "uiview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "classes_lwprogressviews_lwbarprogressview",
+      "target": "uiview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "uiview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L419",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_setupviews",
+      "target": "uiview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "classes_lwbackgroundview_lwbackgroundview_init",
+      "target": "classes_lwbackgroundview_lwhudroundedbutton_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "classes_lwbackgroundview_lwbackgroundview_init",
+      "target": "classes_lwbackgroundview_lwbackgroundview_commoninit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "classes_lwbackgroundview_lwbackgroundview_commoninit",
+      "target": "classes_lwbackgroundview_lwbackgroundview_updateforbackgroundstyle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "classes_lwbackgroundview_lwhudroundedbutton",
+      "target": "uibutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "classes_lwbackgroundview_lwhudroundedbutton",
+      "target": "classes_lwbackgroundview_lwhudroundedbutton_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "classes_lwbackgroundview_lwhudroundedbutton",
+      "target": "classes_lwbackgroundview_lwhudroundedbutton_layoutsubviews",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWBackgroundView.swift",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "classes_lwbackgroundview_lwhudroundedbutton",
+      "target": "classes_lwbackgroundview_lwhudroundedbutton_settitlecolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudroundedbutton",
+      "target": "uibutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwprogressviews_swift",
+      "target": "classes_lwprogressviews_lwroundprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwprogressviews_swift",
+      "target": "classes_lwprogressviews_lwbarprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "classes_lwprogressviews_lwroundprogressview",
+      "target": "lwprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "classes_lwprogressviews_lwroundprogressview",
+      "target": "classes_lwprogressviews_lwroundprogressview_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "classes_lwprogressviews_lwroundprogressview",
+      "target": "classes_lwprogressviews_lwroundprogressview_commoninit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "classes_lwprogressviews_lwroundprogressview",
+      "target": "classes_lwprogressviews_lwroundprogressview_draw",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "classes_lwprogressviews_lwbarprogressview",
+      "target": "lwprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "classes_lwprogressviews_lwroundprogressview_init",
+      "target": "classes_lwprogressviews_lwbarprogressview_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "classes_lwprogressviews_lwroundprogressview_init",
+      "target": "classes_lwprogressviews_lwbarprogressview_commoninit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "classes_lwprogressviews_lwbarprogressview",
+      "target": "classes_lwprogressviews_lwbarprogressview_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "classes_lwprogressviews_lwbarprogressview",
+      "target": "classes_lwprogressviews_lwbarprogressview_commoninit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L195",
+      "weight": 1.0,
+      "source": "classes_lwprogressviews_lwbarprogressview",
+      "target": "classes_lwprogressviews_lwbarprogressview_draw",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWProgressViews.swift",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "classes_lwprogressviews_lwbarprogressview_init",
+      "target": "classes_lwprogressviews_lwbarprogressview_commoninit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhud_swift",
+      "target": "classes_lwhud_lwhudmode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhud_swift",
+      "target": "classes_lwhud_lwhudanimation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhud_swift",
+      "target": "classes_lwhud_lwhudbackgroundstyle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhud_swift",
+      "target": "classes_lwhud_lwhuddelegate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhud_swift",
+      "target": "classes_lwhud_lwhud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L686",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhud_swift",
+      "target": "classes_lwhud_lwprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudmode",
+      "target": "classes_lwhud_lwhudmode_indeterminate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudmode",
+      "target": "classes_lwhud_lwhudmode_determinate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudmode",
+      "target": "classes_lwhud_lwhudmode_determinatehorizontalbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudmode",
+      "target": "classes_lwhud_lwhudmode_annulardeterminate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudmode",
+      "target": "classes_lwhud_lwhudmode_customview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudmode",
+      "target": "classes_lwhud_lwhudmode_text",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudanimation",
+      "target": "classes_lwhud_lwhudanimation_fade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudanimation",
+      "target": "classes_lwhud_lwhudanimation_zoom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudanimation",
+      "target": "classes_lwhud_lwhudanimation_zoomout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudanimation",
+      "target": "classes_lwhud_lwhudanimation_zoomin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudbackgroundstyle",
+      "target": "classes_lwhud_lwhudbackgroundstyle_solidcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudbackgroundstyle",
+      "target": "classes_lwhud_lwhudbackgroundstyle_blur",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhuddelegate",
+      "target": "anyobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L55",
+      "weight": 1.0,
+      "context": "call",
+      "source": "classes_lwhud_lwhud_showhud",
+      "target": "classes_lwhud_lwhud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_hidehud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_hud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L203",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_commoninit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_deinit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1261",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_show",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1265",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_hide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L191",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_handlegracetimer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L198",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_handleminshowtimer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L214",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_showusinganimation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L239",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_hideusinganimation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L323",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_animate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L296",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_done",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L319",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setupviews",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L383",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_updateindicators",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L488",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_updateviews",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L503",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_updatebezelmotioneffects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L533",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_updateconstraints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L623",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_layoutsubviews",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L634",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_updatepaddingconstraints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L636",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setprogressdisplaylinkenabled",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L757",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_updateprogressfromprogressobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L763",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_registerfornotifications",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L772",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_unregisterfromnotifications",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L780",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_statusbarorientationdidchange",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L672",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_updateforcurrentorientation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L208",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_didmovetosuperview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "lwhud_classes_lwhud_m",
+      "target": "classes_lwhud_lwhud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_showhudaddedtoanimated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_hidehudforviewanimated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_hudforview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_initwithframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_initwithcoder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_initwithview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_dealloc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_showanimated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_hideanimated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L180",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_hideanimatedafterdelay",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L202",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_handlehidetimer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L253",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_animateinwithtypecompletion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L439",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_updateviewsforcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L649",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_applyprioritytoconstraints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L657",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setmode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L664",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setcustomview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L673",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setoffset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L680",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setmargin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L687",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setminsize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L694",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setsquare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L701",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setprogressobjectdisplaylink",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L711",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setprogressobject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L718",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L728",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setcontentcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L735",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setdefaultmotioneffectsenabled",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L744",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setnsprogressdisplaylinkenabled",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L790",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_updateforcurrentorientationanimated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1233",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_hideallhudsforviewanimated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1242",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_allhudsforview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1255",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_initwithwindow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1269",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_hideafterdelay",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1275",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_showwhileexecutingontargetwithobjectanimated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1285",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_showanimatedwhileexecutingblock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1290",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_showanimatedwhileexecutingblockcompletionblock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1295",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_showanimatedwhileexecutingblockonqueue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1299",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_showanimatedwhileexecutingblockonqueuecompletionblock",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1311",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_cleanup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1318",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_labeltext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1322",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setlabeltext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1327",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_labelfont",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1331",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setlabelfont",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1336",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_labelcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1340",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setlabelcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1345",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_detailslabeltext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1349",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setdetailslabeltext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1354",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_detailslabelfont",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1358",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setdetailslabelfont",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1363",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_detailslabelcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1367",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setdetailslabelcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1372",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_opacity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1376",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setopacity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1381",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_color",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1385",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1390",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_yoffset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1394",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setyoffset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1399",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_xoffset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1403",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setxoffset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1408",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_cornerradius",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1412",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setcornerradius",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1417",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_dimbackground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1423",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setdimbackground",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1429",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_size",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1433",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_activityindicatorcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1437",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud",
+      "target": "classes_lwhud_lwhud_setactivityindicatorcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_showhud",
+      "target": "classes_lwhud_lwhud_show",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_hidehud",
+      "target": "classes_lwhud_lwhud_hud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_hidehud",
+      "target": "classes_lwhud_lwhud_hide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L200",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_init",
+      "target": "classes_lwhud_lwhud_commoninit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L221",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_commoninit",
+      "target": "classes_lwhud_lwhud_setupviews",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L222",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_commoninit",
+      "target": "classes_lwhud_lwhud_updateindicators",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L223",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_commoninit",
+      "target": "classes_lwhud_lwhud_registerfornotifications",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L227",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_deinit",
+      "target": "classes_lwhud_lwhud_unregisterfromnotifications",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L241",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_show",
+      "target": "classes_lwhud_lwhud_handlegracetimer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L244",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_show",
+      "target": "classes_lwhud_lwhud_showusinganimation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L259",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_hide",
+      "target": "classes_lwhud_lwhud_handleminshowtimer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L265",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_hide",
+      "target": "classes_lwhud_lwhud_hideusinganimation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L280",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_handlegracetimer",
+      "target": "classes_lwhud_lwhud_showusinganimation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L285",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_handleminshowtimer",
+      "target": "classes_lwhud_lwhud_hideusinganimation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L299",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_showusinganimation",
+      "target": "classes_lwhud_lwhud_setprogressdisplaylinkenabled",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L302",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_showusinganimation",
+      "target": "classes_lwhud_lwhud_animate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L312",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_hideusinganimation",
+      "target": "classes_lwhud_lwhud_animate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L313",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_hideusinganimation",
+      "target": "classes_lwhud_lwhud_done",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L358",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_done",
+      "target": "classes_lwhud_lwhud_setprogressdisplaylinkenabled",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L388",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_setupviews",
+      "target": "classes_lwhud_lwhud_updatebezelmotioneffects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L484",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_updateindicators",
+      "target": "classes_lwhud_lwhud_updateviews",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L608",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_updateconstraints",
+      "target": "classes_lwhud_lwhud_updatepaddingconstraints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L615",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_layoutsubviews",
+      "target": "classes_lwhud_lwhud_updatepaddingconstraints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L668",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_statusbarorientationdidchange",
+      "target": "classes_lwhud_lwhud_updateforcurrentorientation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD.swift",
+      "source_location": "L680",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhud_didmovetosuperview",
+      "target": "classes_lwhud_lwhud_updateforcurrentorientation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhud_extensions_swift",
+      "target": "classes_lwhud_extensions_lwhud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhud_extensions_swift",
+      "target": "classes_lwhud_extensions_uiviewcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L174",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhud_extensions_swift",
+      "target": "classes_lwhud_extensions_uiwindow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L201",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhud_extensions_swift",
+      "target": "classes_lwhud_extensions_showhud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L210",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhud_extensions_swift",
+      "target": "classes_lwhud_extensions_hidehud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhud_extensions_swift",
+      "target": "classes_lwhud_extensions_showactivity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L228",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhud_extensions_swift",
+      "target": "classes_lwhud_extensions_showsuccess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L237",
+      "weight": 1.0,
+      "source": "lwhud_swift_classes_lwhud_extensions_swift",
+      "target": "classes_lwhud_extensions_showerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud",
+      "target": "classes_lwhud_extensions_lwhud_showactivity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud",
+      "target": "classes_lwhud_extensions_lwhud_showtext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud",
+      "target": "classes_lwhud_extensions_lwhud_showsuccess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud",
+      "target": "classes_lwhud_extensions_lwhud_showerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud",
+      "target": "classes_lwhud_extensions_lwhud_showprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud",
+      "target": "classes_lwhud_extensions_lwhud_updateprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud",
+      "target": "classes_lwhud_extensions_lwhud_createcheckmarkview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud",
+      "target": "classes_lwhud_extensions_lwhud_createcrossview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud",
+      "target": "classes_lwhud_extensions_lwhud_drawcheckmark",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud",
+      "target": "classes_lwhud_extensions_lwhud_drawcross",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud_showactivity",
+      "target": "classes_lwhud_extensions_showhud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud_showtext",
+      "target": "classes_lwhud_extensions_showhud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud_showsuccess",
+      "target": "classes_lwhud_extensions_showhud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud_showsuccess",
+      "target": "classes_lwhud_extensions_lwhud_createcheckmarkview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud_showerror",
+      "target": "classes_lwhud_extensions_showhud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud_showerror",
+      "target": "classes_lwhud_extensions_lwhud_createcrossview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud_showprogress",
+      "target": "classes_lwhud_extensions_showhud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud_createcheckmarkview",
+      "target": "classes_lwhud_extensions_lwhud_drawcheckmark",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_lwhud_createcrossview",
+      "target": "classes_lwhud_extensions_lwhud_drawcross",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_uiviewcontroller",
+      "target": "classes_lwhud_extensions_uiviewcontroller_showhud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_uiviewcontroller",
+      "target": "classes_lwhud_extensions_uiviewcontroller_hidehud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_uiviewcontroller",
+      "target": "classes_lwhud_extensions_uiviewcontroller_showactivity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L148",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_uiviewcontroller",
+      "target": "classes_lwhud_extensions_uiviewcontroller_showsuccess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L154",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_uiviewcontroller",
+      "target": "classes_lwhud_extensions_uiviewcontroller_showerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_uiviewcontroller",
+      "target": "classes_lwhud_extensions_uiviewcontroller_showtext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L166",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_uiviewcontroller",
+      "target": "classes_lwhud_extensions_uiviewcontroller_showprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_uiviewcontroller_showhud",
+      "target": "classes_lwhud_extensions_showhud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_uiviewcontroller_hidehud",
+      "target": "classes_lwhud_extensions_hidehud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_uiviewcontroller_showactivity",
+      "target": "classes_lwhud_extensions_showactivity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L150",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_uiviewcontroller_showsuccess",
+      "target": "classes_lwhud_extensions_showsuccess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_uiviewcontroller_showerror",
+      "target": "classes_lwhud_extensions_showerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L186",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_uiwindow",
+      "target": "classes_lwhud_extensions_uiwindow_showhud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L192",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_uiwindow",
+      "target": "classes_lwhud_extensions_uiwindow_hidehud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_uiwindow_showhud",
+      "target": "classes_lwhud_extensions_showhud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD_swift/Classes/LWHUD+Extensions.swift",
+      "source_location": "L194",
+      "weight": 1.0,
+      "source": "classes_lwhud_extensions_uiwindow_hidehud",
+      "target": "classes_lwhud_extensions_hidehud",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "lwhud_classes_lwhud_m",
+      "target": "classes_lwhud_lwhudroundedbutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L833",
+      "weight": 1.0,
+      "source": "lwhud_classes_lwhud_m",
+      "target": "classes_lwhud_lwroundprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L954",
+      "weight": 1.0,
+      "source": "lwhud_classes_lwhud_m",
+      "target": "classes_lwhud_lwbarprogressview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1084",
+      "weight": 1.0,
+      "source": "lwhud_classes_lwhud_m",
+      "target": "classes_lwhud_lwbackgroundview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1453",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudroundedbutton",
+      "target": "classes_lwhud_lwhudroundedbutton_initwithframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1464",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudroundedbutton",
+      "target": "classes_lwhud_lwhudroundedbutton_layoutsubviews",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1471",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudroundedbutton",
+      "target": "classes_lwhud_lwhudroundedbutton_intrinsiccontentsize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1482",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudroundedbutton",
+      "target": "classes_lwhud_lwhudroundedbutton_settitlecolorforstate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1489",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwhudroundedbutton",
+      "target": "classes_lwhud_lwhudroundedbutton_sethighlighted",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L837",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwroundprogressview",
+      "target": "classes_lwhud_lwroundprogressview_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L841",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwroundprogressview",
+      "target": "classes_lwhud_lwroundprogressview_initwithframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L856",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwroundprogressview",
+      "target": "classes_lwhud_lwroundprogressview_intrinsiccontentsize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L862",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwroundprogressview",
+      "target": "classes_lwhud_lwroundprogressview_setprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L869",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwroundprogressview",
+      "target": "classes_lwhud_lwroundprogressview_setprogresstintcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L877",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwroundprogressview",
+      "target": "classes_lwhud_lwroundprogressview_setbackgroundtintcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L887",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwroundprogressview",
+      "target": "classes_lwhud_lwroundprogressview_drawrect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L958",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwbarprogressview",
+      "target": "classes_lwhud_lwbarprogressview_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L962",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwbarprogressview",
+      "target": "classes_lwhud_lwbarprogressview_initwithframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L977",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwbarprogressview",
+      "target": "classes_lwhud_lwbarprogressview_intrinsiccontentsize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L984",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwbarprogressview",
+      "target": "classes_lwhud_lwbarprogressview_setprogress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L991",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwbarprogressview",
+      "target": "classes_lwhud_lwbarprogressview_setprogresscolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L999",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwbarprogressview",
+      "target": "classes_lwhud_lwbarprogressview_setprogressremainingcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1009",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwbarprogressview",
+      "target": "classes_lwhud_lwbarprogressview_drawrect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1100",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwbackgroundview",
+      "target": "classes_lwhud_lwbackgroundview_initwithframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1126",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwbackgroundview",
+      "target": "classes_lwhud_lwbackgroundview_intrinsiccontentsize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1133",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwbackgroundview",
+      "target": "classes_lwhud_lwbackgroundview_setstyle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1143",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwbackgroundview",
+      "target": "classes_lwhud_lwbackgroundview_setcolor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1153",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwbackgroundview",
+      "target": "classes_lwhud_lwbackgroundview_setblureffectstyle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1168",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwbackgroundview",
+      "target": "classes_lwhud_lwbackgroundview_updateforbackgroundstyle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "LWHUD/Classes/LWHUD.m",
+      "source_location": "L1212",
+      "weight": 1.0,
+      "source": "classes_lwhud_lwbackgroundview",
+      "target": "classes_lwhud_lwbackgroundview_updateviewsforcolor",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
